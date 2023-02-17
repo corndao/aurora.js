@@ -1,5 +1,5 @@
 {
-  "name": "@aurora-is-near/engine",
+  "name": "@corndao/aurora.js",
   "version": "0.0.0",
   "description": "Aurora Engine client library for JavaScript.",
   "type": "commonjs",
