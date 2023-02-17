@@ -89,5 +89,9 @@
     "transform": {
       "^.+\\.[tj]sx?$": "ts-jest"
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
