@@ -1,6 +1,6 @@
 {
   "name": "@corndao/aurora.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Aurora Engine client library for JavaScript.",
   "type": "commonjs",
   "module": "lib/index.js",
