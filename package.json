@@ -1,8 +1,8 @@
 {
-  "name": "@aurora-is-near/engine",
+  "name": "@corndao/aurora.js",
   "version": "0.0.0",
   "description": "Aurora Engine client library for JavaScript.",
-  "type": "module",
+  "type": "commonjs",
   "module": "lib/index.js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -38,7 +38,8 @@
     "build": "tsc",
     "format": "prettier -w src",
     "lint": "eslint test && eslint **/*.ts",
-    "test": "jest"
+    "test": "jest",
+    "np": "pnpm build && npx np --no-tests"
   },
   "keywords": [
     "Aurora",
@@ -88,5 +89,9 @@
     "transform": {
       "^.+\\.[tj]sx?$": "ts-jest"
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
