@@ -38,7 +38,8 @@
     "build": "tsc",
     "format": "prettier -w src",
     "lint": "eslint test && eslint **/*.ts",
-    "test": "jest"
+    "test": "jest",
+    "np": "pnpm build && npx np --no-tests"
   },
   "keywords": [
     "Aurora",
