@@ -1,11 +1,4 @@
-> **⚠ WARNING: This library has been deprecated.**  
-> The replacement solution will be offered shortly.
-
-# Aurora Engine Client for JavaScript
-
-[![Project license](https://img.shields.io/badge/License-Public%20Domain-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Discord](https://img.shields.io/discord/490367152054992913?label=Discord)](https://discord.gg/jNjHYUF8vw)
-[![Lints](https://github.com/aurora-is-near/aurora.js/actions/workflows/lints.yml/badge.svg)](https://github.com/aurora-is-near/aurora.js/actions/workflows/lints.yml)
+# Aurora Engine Client for JavaScript & Support CommonJS
 
 ## Prerequisites
 
@@ -14,19 +7,21 @@
 ## Installation
 
 ```shell
-npm install -D aurora-is-near/aurora.js
+npm install -D @corndao/aurora.js
 ```
 
 ```json
+{
   "dependencies": {
-    "@aurora-is-near/engine": "git://github.com/aurora-is-near/aurora.js",
+    "@corndao/aurora.js": "git://github.com/corndao/aurora.js"
   }
+}
 ```
 
 ## Usage
 
 ```js
-import Aurora from '@aurora-is-near/engine';
+import Aurora from "@corndao/aurora.js";
 ```
 
 See the [Aurora CLI] source code for example usage.
